@@ -1,0 +1,81 @@
+/* CSS part */
+/* border: solid 1px red; */
+
+.first {
+    background-color: #1F2937;
+    padding: 0 150px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 0 0;
+}
+
+.head.left {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.head.left h3 {
+    margin: 0; /* Add this line to remove default margins */
+}
+
+
+.head.right {
+    gap: 16px;
+}
+
+a:link {
+    color: #E5E7Eb;
+}
+
+a:visited {
+    color: #E5E7Eb;
+}
+
+.sep {
+    display: flex;
+    padding-top: 60px;
+}
+
+.main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+button {
+    background-color: rgb(63, 109, 236);
+    color: #E5E7Eb;
+    width: 100px;
+    height: 28px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+
+.title.right {
+    padding-top: 40px;
+}
+
+.title.left {
+    padding-right: 20px;
+}
+
+.title.left h2{
+    margin-bottom: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.959);
+}
+
